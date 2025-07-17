@@ -1,0 +1,25 @@
+# Semantic Kernel y sus dependencias principales
+semantic-kernel==1.17.1
+
+# Conector de Azure OpenAI para Semantic Kernel
+semantic-kernel[azure]==1.17.1
+
+# Cliente de OpenAI
+openai>=1.30.0
+
+# Manejo de variables de entorno
+python-dotenv==1.0.1
+
+# Dependencias asíncronas
+aiohttp>=3.9.0
+aiohttpx>=0.0.11
+
+# Herramientas de tipos y validación
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Utilidades
+typing-extensions>=4.8.0
+
+# Para mejor compatibilidad con Windows
+nest-asyncio==1.6.0
